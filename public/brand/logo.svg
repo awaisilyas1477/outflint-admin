@@ -1,0 +1,20 @@
+﻿<svg width="1400" height="360" viewBox="0 0 1400 360" xmlns="http://www.w3.org/2000/svg">
+    <g transform="translate(0,10)">
+    <path d="M60 90 H100 L128 124" fill="none" stroke="#1C1D1D" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M128 124
+             L222 58
+             L316 124
+             L316 254
+             L128 254
+             Z"
+          fill="none" stroke="#1C1D1D" stroke-width="14" stroke-linejoin="round" stroke-linecap="round"/>
+    <rect x="192" y="187" width="52" height="67" rx="6" fill="#E0703A"/>
+    <line x1="128" y1="191" x2="316" y2="191" stroke="#1C1D1D" stroke-width="11"/>
+    <circle cx="167" cy="288" r="22" fill="#1C1D1D"/>
+    <circle cx="277" cy="288" r="22" fill="#1C1D1D"/>
+    <circle cx="167" cy="288" r="7" fill="#FFFFFF"/>
+    <circle cx="277" cy="288" r="7" fill="#FFFFFF"/>
+  </g>
+  <text x="380" y="205" font-family="Montserrat, sans-serif" font-weight="600" font-size="92" fill="#1C1D1D">Simple<tspan fill="#E0703A">Cart</tspan></text>
+  <text x="382" y="270" font-family="Montserrat, sans-serif" font-weight="500" font-size="40" letter-spacing="14" fill="#6B6B68">STORE</text>
+</svg>
