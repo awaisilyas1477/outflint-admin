@@ -34,7 +34,7 @@ export const APP_HERO_TITLE = pick(
 );
 
 /** Full wordmark (sidebar / auth). */
-export const APP_LOGO_SRC = "/brand/logo.svg";
+export const APP_LOGO_SRC = "/brand/logo-dark.webp";
 
-/** Cart mark only (collapsed sidebar / compact UI). */
-export const APP_MARK_SRC = "/brand/mark.svg";
+/** Compact mark (collapsed sidebar / compact UI). */
+export const APP_MARK_SRC = "/brand/logo-dark.webp";
