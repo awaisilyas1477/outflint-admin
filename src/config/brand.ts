@@ -19,7 +19,7 @@ function pick(
     : fallback;
 }
 
-export const APP_NAME = pick(import.meta.env.VITE_APP_NAME, "SimpleCartStore Admin");
+export const APP_NAME = pick(import.meta.env.VITE_APP_NAME, "Outflint Admin");
 
 export const APP_TAGLINE = pick(import.meta.env.VITE_APP_TAGLINE, "Admin");
 
@@ -30,7 +30,7 @@ export const APP_DESCRIPTION = pick(
 
 export const APP_HERO_TITLE = pick(
   import.meta.env.VITE_APP_HERO_TITLE,
-  "Operate your SimpleCartStore store",
+  "Operate your Outflint store",
 );
 
 /** Full wordmark (sidebar / auth). */

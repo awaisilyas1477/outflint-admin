@@ -149,7 +149,12 @@ export async function countReviewsAdmin(options?: {
 export async function countReviewsByStatusAdmin(): Promise<
   Record<ReviewModerationStatus | "all", number>
 > {
-  const empty = { all: 0, pending: 0, approved: 0, rejected: 0 } as const;
+  const empty: Record<ReviewModerationStatus | "all", number> = {
+    all: 0,
+    pending: 0,
+    approved: 0,
+    rejected: 0,
+  };
   if (!supabase) return { ...empty };
   const statuses: ReviewModerationStatus[] = ["pending", "approved", "rejected"];
   const results = await Promise.all(
@@ -161,7 +166,7 @@ export async function countReviewsByStatusAdmin(): Promise<
         .then((r) => ({ status, count: r.error ? 0 : (r.count ?? 0) })),
     ),
   );
-  const out = { ...empty, all: 0 };
+  const out: Record<ReviewModerationStatus | "all", number> = { ...empty };
   for (const r of results) {
     out[r.status] = r.count;
     out.all += r.count;

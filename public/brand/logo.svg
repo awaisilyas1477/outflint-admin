@@ -15,6 +15,6 @@
     <circle cx="167" cy="288" r="7" fill="#FFFFFF"/>
     <circle cx="277" cy="288" r="7" fill="#FFFFFF"/>
   </g>
-  <text x="380" y="205" font-family="Montserrat, sans-serif" font-weight="600" font-size="92" fill="#1C1D1D">Simple<tspan fill="#E0703A">Cart</tspan></text>
-  <text x="382" y="270" font-family="Montserrat, sans-serif" font-weight="500" font-size="40" letter-spacing="14" fill="#6B6B68">STORE</text>
+  <text x="380" y="205" font-family="Montserrat, sans-serif" font-weight="600" font-size="92" fill="#1C1D1D">Outflint</text>
+  <text x="382" y="270" font-family="Montserrat, sans-serif" font-weight="500" font-size="40" letter-spacing="14" fill="#6B6B68"> /text>
 </svg>
