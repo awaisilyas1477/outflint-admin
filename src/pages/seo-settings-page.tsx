@@ -254,7 +254,7 @@ function SiteIdentityCard() {
                   onChange={(e) =>
                     setRow({ ...row, organization_legal_name: e.target.value })
                   }
-                  placeholder="As registered (e.g. SimpleCartStore Pvt. Ltd.)"
+                  placeholder="As registered (e.g. Outflint Pvt. Ltd.)"
                 />
               </div>
               <div className="space-y-2">

@@ -211,7 +211,7 @@ export function SettingsPage() {
                     onChange={(e) => setStoreName(e.target.value)}
                     autoComplete="organization"
                     required
-                    placeholder="e.g. SimpleCartStore"
+                    placeholder="e.g. Outflint"
                   />
                   <p className="text-xs text-muted-foreground">
                     Required. Shown in the header, checkout, and transactional email subjects — stored only in the

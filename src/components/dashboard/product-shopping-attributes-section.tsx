@@ -155,7 +155,7 @@ export function ProductShoppingAttributesSection({
                   id={brandId}
                   value={brandName}
                   onChange={(e) => setBrandName(e.target.value)}
-                  placeholder="e.g. SimpleCartStore"
+                  placeholder="e.g. Outflint"
                 />
               </div>
               <div className="space-y-2">

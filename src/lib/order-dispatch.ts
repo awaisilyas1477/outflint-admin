@@ -61,7 +61,7 @@ export function formatOrderDispatchText(
 export function formatOrderWhatsAppConfirmation(
   order: OrderRow,
   items: OrderItemRow[] = [],
-  storeName = "SimpleCart Store",
+  storeName = "Outflint",
 ): string {
   const first = (order.first_name || "").trim() || "there";
   const cityLine = [order.shipping_city, order.shipping_province].filter(Boolean).join(", ");

@@ -4,7 +4,7 @@
  * Static assets live under `/public/brand` (served from `/brand/...`).
  *
  * @example
- * VITE_APP_NAME=SimpleCartStore Admin
+ * VITE_APP_NAME=Outflint Admin
  * VITE_APP_TAGLINE=Admin
  * VITE_APP_DESCRIPTION=Operate catalog, promos, and media for your storefront.
  * VITE_APP_HERO_TITLE=Your store control center

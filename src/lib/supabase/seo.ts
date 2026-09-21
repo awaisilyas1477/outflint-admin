@@ -295,8 +295,8 @@ export async function updateSeoSite(
 const SOCIAL_URL_RE = /^https?:\/\/\S+/i;
 
 /**
- * Best-effort normalization for paste-ins like `facebook.com/simplecartstore` or
- * `www.x.com/simplecartstore`. Returns the original string when no scheme is missing
+ * Best-effort normalization for paste-ins like `facebook.com/Outflint` or
+ * `www.x.com/Outflint`. Returns the original string when no scheme is missing
  * (so `facebook_app` numeric IDs and already-valid URLs pass through unchanged).
  */
 export function normalizeSocialUrl(input: string, platform: string): string {

@@ -38,7 +38,7 @@ function packingSlipQrUrl(orderId: string): string {
   const origin =
     typeof window !== "undefined"
       ? window.location.origin
-      : "https://admin.simplecartstore.com";
+      : "https://admin.Outflint.com";
   return `${origin}/dashboard/orders/${orderId}`;
 }
 
@@ -60,7 +60,7 @@ const labelStyle: React.CSSProperties = {
 export function OrderPackingSlip({ order, items, store }: OrderPackingSlipProps) {
   const ref = order.order_number ?? order.id.slice(0, 8).toUpperCase();
   const customerName = [order.first_name, order.last_name].filter(Boolean).join(" ") || "—";
-  const storeName = store?.storeName?.trim() || "SimpleCart Store";
+  const storeName = store?.storeName?.trim() || "Outflint";
   const logoSrc =
     typeof window !== "undefined" ? `${window.location.origin}${APP_LOGO_SRC}` : APP_LOGO_SRC;
   const addressLines = [
